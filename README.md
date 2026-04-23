@@ -1,4 +1,4 @@
-# 📉 Customer Churn Analysis & Prediction
+# Customer Churn Analysis & Prediction
 
 A machine learning project analyzing customer attrition data from a telecommunications provider to identify patterns that lead to churn and build a predictive model.
 
