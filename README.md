@@ -4,7 +4,7 @@ A machine learning project analyzing customer attrition data from a telecommunic
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 The goal of this project is to analyze customer data to **identify patterns that lead to customer attrition (churn)**. By understanding these factors, we aim to:
 
@@ -14,7 +14,7 @@ The goal of this project is to analyze customer data to **identify patterns that
 
 ---
 
-## 🔍 Key Research Questions
+## Key Research Questions
 
 1. Which **demographic factors** (gender, seniority, partners) are most associated with churn?
 2. How do **service features** (internet type, technical support, streaming) impact customer loyalty?
@@ -22,7 +22,7 @@ The goal of this project is to analyze customer data to **identify patterns that
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The dataset used is the **IBM Telco Customer Churn** dataset (`WA_Fn-UseC_-Telco-Customer-Churn.csv`), containing **7,043 customer records** with **21 features**.
 
@@ -36,7 +36,7 @@ The dataset used is the **IBM Telco Customer Churn** dataset (`WA_Fn-UseC_-Telco
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |---|---|
@@ -50,7 +50,7 @@ The dataset used is the **IBM Telco Customer Churn** dataset (`WA_Fn-UseC_-Telco
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 customer-churn/
@@ -61,7 +61,7 @@ customer-churn/
 
 ---
 
-## 📈 Analysis Workflow
+## Analysis Workflow
 
 ### 1. Data Loading & Exploration
 - Load dataset and inspect structure
@@ -92,7 +92,7 @@ customer-churn/
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 - **High monthly charges** are correlated with higher churn — price-sensitive customers leave more readily
 - **Short tenure** is strongly associated with churn — early-stage customers are the most at-risk
@@ -101,7 +101,7 @@ customer-churn/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 ```bash
@@ -117,7 +117,7 @@ jupyter notebook CustChurnPredictionDS.ipynb
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 - [ ] Apply SMOTE or other resampling techniques to address class imbalance
 - [ ] Hyperparameter tuning with GridSearchCV / RandomizedSearchCV
@@ -125,15 +125,3 @@ jupyter notebook CustChurnPredictionDS.ipynb
 - [ ] Explore deep learning approaches (e.g., neural networks)
 - [ ] Deploy model to a cloud endpoint
 
----
-
-## 👤 Author
-
-**Adam Rashid**
-- GitHub: [@adam3rashid](https://github.com/adam3rashid)
-
----
-
-## 📄 License
-
-This project is for educational purposes as part of a Data Science coursework at Jessup University.
