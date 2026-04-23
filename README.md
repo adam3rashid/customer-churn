@@ -55,7 +55,7 @@ The dataset used is the **IBM Telco Customer Churn** dataset (`WA_Fn-UseC_-Telco
 ```
 customer-churn/
 ├── CustChurnPredictionDS.ipynb     # Main analysis notebook
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv  # Dataset (not tracked)
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv  # Dataset
 └── README.md                       # Project documentation
 ```
 
@@ -119,7 +119,6 @@ jupyter notebook CustChurnPredictionDS.ipynb
 
 ## Future Improvements
 
-- [ ] Apply SMOTE or other resampling techniques to address class imbalance
 - [ ] Hyperparameter tuning with GridSearchCV / RandomizedSearchCV
 - [ ] Build a simple Flask/Streamlit dashboard for real-time churn prediction
 - [ ] Explore deep learning approaches (e.g., neural networks)
